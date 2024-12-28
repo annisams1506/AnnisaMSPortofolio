@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -6,42 +7,42 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-white text-2xl font-bold">
-          <a href="#home" className="hover:text-gray-200">MyPortfolio</a>
+          <Link to="/" className="hover:text-gray-200">MyPortfolio</Link>
         </div>
 
         {/* Menu */}
         <ul className="hidden md:flex space-x-6 text-white text-lg">
           <li>
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="hover:underline hover:text-gray-200 transition"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#project"
+            <Link
+              to="/projects"
               className="hover:underline hover:text-gray-200 transition"
             >
-              Project
-            </a>
+              Projects
+            </Link>
           </li>
           <li>
-            <a
-              href="#experience"
+            <Link
+              to="/experience"
               className="hover:underline hover:text-gray-200 transition"
             >
               Experience
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="hover:underline hover:text-gray-200 transition"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -75,36 +76,36 @@ const Navbar = () => {
           className="absolute top-16 left-0 w-full bg-indigo-500 hidden flex flex-col items-center space-y-4 py-4 md:hidden"
         >
           <li>
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="text-white text-lg hover:underline hover:text-gray-200"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#project"
+            <Link
+              to="/projects"
               className="text-white text-lg hover:underline hover:text-gray-200"
             >
-              Project
-            </a>
+              Projects
+            </Link>
           </li>
           <li>
-            <a
-              href="#experience"
+            <Link
+              to="/experience"
               className="text-white text-lg hover:underline hover:text-gray-200"
             >
               Experience
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="text-white text-lg hover:underline hover:text-gray-200"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
