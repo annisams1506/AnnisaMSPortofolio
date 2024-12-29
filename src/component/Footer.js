@@ -16,7 +16,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/annisams1506"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-300 transition"
@@ -24,13 +24,13 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="mailto:example@example.com"
+            href="mailto:annisa.m.sabilla@gmail.com"
             className="hover:text-red-300 transition"
           >
             <FaEnvelope />
           </a>
           <a
-            href="https://open.spotify.com"
+            href="https://open.spotify.com/user/31ldyuuplqdhtwi4zpwbg6vqkbwi?si=202f007e826e4c83"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green-300 transition"

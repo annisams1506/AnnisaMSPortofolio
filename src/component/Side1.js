@@ -31,10 +31,11 @@ const Side1 = () => {
 
           <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
             <a
-              href="cv.pdf"
-              download
+               href="https://drive.google.com/file/d/1dRtsVRTAk7_9GvwqJ-bhdkCR8EPZqRZb/view?usp=sharing"
+               target="_blank"
+               rel="noopener noreferrer"
               className="flex items-center text-gray-800 hover:text-pink-700 transition duration-300"
-              aria-label="CV"
+              aria-label="CV_Annisa Maulana Sabilla"
             >
               <BiFile className="text-3xl" />
               <span className="ml-2 font-semibold">Download CV</span>

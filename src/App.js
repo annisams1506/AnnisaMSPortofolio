@@ -10,6 +10,7 @@ import Pageskills from "./component/Pageskills";
 import CardList from "./component/CardList";
 import Project1 from "./Project/Project1";
 import Card from "./component/Card";
+import Pagecontact from "./component/Pagecontact";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/skills" element={<Pageskills />} />
           <Route path="/cards" element={<CardList />} />
           <Route path="/project/1" element={<Project1 />} />
+          <Route path="/contact" element={<Pagecontact />} />
           {/* Tambahkan route lain jika diperlukan */}
         </Routes>
 
